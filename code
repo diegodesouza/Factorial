@@ -1,7 +1,7 @@
-def factorial(n) #this var will point to the range from 1..n
+def factorial(n)
   num = 1
-  (1..n).each do |n| #will iterate over the range
-    num *= n #num 1 times each in the range.
+  (1..n).each do |n|
+    num *= n 
   end
  num
 end
